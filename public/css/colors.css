@@ -1,0 +1,37 @@
+/* ========================================
+   PALETA DE CORES GLOBAL DO SITE
+   ======================================== */
+
+:root {
+  /* ===== TONS ESCUROS ===== */
+  /* Fundo escuro principal - elegante, quase preto mas não puro */
+  --color-dark-primary: #1C1C1C;
+  
+  /* Cinza escuro - para áreas secundárias, navbar, cartões escuros */
+  --color-dark-secondary: #2E2E2E;
+  
+  /* ===== TONS MÉDIOS ===== */
+  /* Cinza médio - para bordas, divisores, backgrounds sutis */
+  --color-gray-medium: #4D4D4D;
+  
+  /* Cinza claro - para fundos alternados, hover leve */
+  --color-gray-light: #B0B0B0;
+  
+  /* ===== TONS CLAROS ===== */
+  /* Quase branco - para fundos claros, textos em dark mode */
+  --color-light-primary: #F5F5F5;
+  
+  /* Branco suave - principal para fundo claro, sem ser estourado */
+  --color-light-secondary: #FAFAFA;
+  
+  /* ===== CORES DE ACENTO ===== */
+  /* Azul suave - para detalhes interativos, botões, links */
+  --color-accent-blue: #3A7CA5;
+  
+  /* Verde suave - para feedbacks positivos, sucesso */
+  --color-accent-green: #4CAF50;
+  
+  /* Bege minimalista - para detalhes elegantes */
+  --color-accent-beige: #E0C097;
+  
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso - Document</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="curso.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="curso-header">
+            <button class="btn-voltar" onclick="history.back()">← Voltar</button>
+        </div>
+        
+        <div class="curso-content">
+            <div class="curso-image">
+                <img id="curso-img" src="https://picsum.photos/600/400" alt="Imagem do curso">
+            </div>
+            
+            <div class="curso-info">
+                <h1 id="curso-title">Carregando...</h1>
+                <div class="curso-meta">
+                    <span class="autor">Por: <strong id="curso-author">...</strong></span>
+                    <span class="categoria" id="curso-category">Categoria</span>
+                </div>
+                
+                <div class="curso-description">
+                    <h2>Sobre o Curso</h2>
+                    <p id="curso-description">
+                        Este é um curso completo que vai te ensinar tudo o que você precisa saber sobre o assunto. 
+                        Com uma abordagem prática e didática, você aprenderá desde os conceitos básicos até técnicas avançadas.
+                    </p>
+                </div>
+                
+                <div class="curso-details">
+                    <div class="detail-item">
+                        <span class="label">Duração:</span>
+                        <span class="value" id="curso-duration">8 horas</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Nível:</span>
+                        <span class="value" id="curso-level">Iniciante</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Certificado:</span>
+                        <span class="value">Sim</span>
+                    </div>
+                </div>
+                
+                <div class="curso-actions">
+                    <button class="btn-primary">Inscrever-se no Curso</button>
+                    <button class="btn-secondary">Adicionar aos Favoritos</button>
+                </div>
+            </div>
+        </div>
+        
+        <section class="curso-curriculum">
+            <h2>Conteúdo do Curso</h2>
+            <div class="curriculum-list">
+                <div class="curriculum-item">
+                    <h3>Módulo 1: Introdução</h3>
+                    <p>Conceitos fundamentais e primeiros passos</p>
+                </div>
+                <div class="curriculum-item">
+                    <h3>Módulo 2: Prática</h3>
+                    <p>Exercícios práticos e aplicações</p>
+                </div>
+                <div class="curriculum-item">
+                    <h3>Módulo 3: Avançado</h3>
+                    <p>Técnicas avançadas e casos especiais</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="../../js/components/Header.js"></script>
+    <script src="curso.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeHeader();
+        });
+    </script>
+</body>
+
+</html>
