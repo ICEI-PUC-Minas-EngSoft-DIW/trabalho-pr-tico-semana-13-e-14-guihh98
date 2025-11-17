@@ -9,15 +9,20 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
+- Nome:Guilherme Henrique Morei
+- Matricula: 855826
+- Proposta de projeto escolhida: Aplicacao web de cursos (similar a udemy e alura)
 - Breve descrição sobre seu projeto:
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+1 - fiz refactor da atividade anterior passando os dados para jsonserver e serem populados atraves dos endpoints
+2 - Criei nova pagina de calendario
+3 - populei o calendario com servico que busca todos os cursos
 
 <<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![alt text](image-3.png)
 
 <<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![alt text](image-4.png)
