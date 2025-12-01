@@ -135,6 +135,20 @@
     background: #545b62;
 }
 
+.btn-secondary.favorited {
+    background: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-secondary.favorited:hover {
+    background: #c82333;
+}
+
+.btn-secondary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 .curso-curriculum {
     margin-top: 3rem;
 }

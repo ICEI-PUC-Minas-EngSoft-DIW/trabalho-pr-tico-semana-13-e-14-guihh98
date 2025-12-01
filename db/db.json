@@ -20,6 +20,13 @@
       "senha": "123",
       "login": "asfdfs@gmail.com",
       "id": "F0Kqtv3"
+    },
+    {
+      "nome": "Guilherme",
+      "email": "teste@teste.com",
+      "senha": "teste",
+      "login": "teste@teste.com",
+      "id": "eXIJWVQ"
     }
   ],
   "rendaFixa": [
@@ -132,6 +139,20 @@
       "duration": "6 horas",
       "level": "Iniciante",
       "description": "Organize suas finanças pessoais e construa um plano para alcançar seus objetivos financeiros."
+    }
+  ],
+  "favoritos": [
+    {
+      "id": "264276b0-784c-43f9-a8c4-ead7ff950f87",
+      "userId": "eXIJWVQ",
+      "courseTitle": "Curso de Renda Fixa Básico",
+      "courseAuthor": "Maria Silva",
+      "courseImage": "https://picsum.photos/600/600?random=1",
+      "courseCategory": "Renda Fixa",
+      "courseDuration": "6 horas",
+      "courseLevel": "Iniciante",
+      "courseDescription": "Aprenda os fundamentos da renda fixa, incluindo CDB, Tesouro Direto e fundos conservadores. Ideal para quem quer começar a investir com segurança.",
+      "createdAt": "2025-12-01T01:44:22.020Z"
     }
   ]
 }
