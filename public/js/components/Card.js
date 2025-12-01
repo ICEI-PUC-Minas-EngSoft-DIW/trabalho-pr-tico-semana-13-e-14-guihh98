@@ -43,7 +43,7 @@ class Card {
         };
 
         const params = new URLSearchParams(courseData);
-        const courseURL = `pages/curso/index.html?${params.toString()}`;
+        const courseURL = `/pages/curso/index.html?${params.toString()}`;
         
         window.location.href = courseURL;
     }

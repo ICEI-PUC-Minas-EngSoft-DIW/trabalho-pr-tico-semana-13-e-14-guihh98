@@ -39,6 +39,24 @@ class CourseService {
             throw error;
         }
     }
+
+    async searchCourses(searchTerm) {
+        try {
+            const { rendaFixa, topLastMonth } = await this.getAllCourses();
+            const allCourses = [...rendaFixa, ...topLastMonth];
+            
+            const normalizedSearch = searchTerm.toLowerCase().trim();
+            
+            const results = allCourses.filter(course => 
+                course.title.toLowerCase().includes(normalizedSearch)
+            );
+            
+            return results;
+        } catch (error) {
+            console.error('Erro ao pesquisar cursos:', error);
+            throw error;
+        }
+    }
 }
 
 const courseService = new CourseService();

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Pesquisa</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="resultados.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="resultados-header">
+            <h1>Resultados da Pesquisa</h1>
+            <p class="search-term">Buscando por: <strong id="termo-pesquisa"></strong></p>
+        </div>
+
+        <div class="resultados-info">
+            <p id="count-resultados">Carregando...</p>
+        </div>
+
+        <section class="resultados-content">
+            <div class="cards-grid" id="resultados-container"></div>
+        </section>
+
+        <div class="no-results" id="no-results" style="display: none;">
+            <h2>Nenhum curso encontrado</h2>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="../../js/components/Header.js"></script>
+    <script src="../../js/components/Card.js"></script>
+    <script src="../../js/services/courseService.js"></script>
+    <script src="resultados.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {initializeHeader();});
+    </script>
+</body>
+
+</html>

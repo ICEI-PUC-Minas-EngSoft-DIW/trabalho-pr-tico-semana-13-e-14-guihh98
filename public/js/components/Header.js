@@ -27,6 +27,21 @@ class Header {
         const body = document.body;
         const headerHTML = this.render();
         body.insertAdjacentHTML('afterbegin', headerHTML);
+        this.attachEventListeners();
+    }
+
+    attachEventListeners() {
+        const searchInput = document.getElementById('search');
+        if (searchInput) {
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    const searchTerm = e.target.value.trim();
+                    if (searchTerm) {
+                        window.location.href = `/pages/resultados/index.html?q=${encodeURIComponent(searchTerm)}`;
+                    }
+                }
+            });
+        }
     }
 }
 
