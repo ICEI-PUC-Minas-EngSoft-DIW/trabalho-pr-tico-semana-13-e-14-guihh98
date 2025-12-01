@@ -13,6 +13,13 @@
       "senha": "123",
       "nome": "Usuario Comum",
       "email": "user@abc.com"
+    },
+    {
+      "nome": "Teste",
+      "email": "teste@teste.com",
+      "senha": "123",
+      "login": "teste@teste.com",
+      "id": "86cGH6e"
     }
   ],
   "rendaFixa": [

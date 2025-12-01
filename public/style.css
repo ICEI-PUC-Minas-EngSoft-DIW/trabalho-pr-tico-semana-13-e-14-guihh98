@@ -80,6 +80,31 @@ header input[type="search"]:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.btn-signout {
+    padding: 8px 20px;
+    border: 2px solid #dc2626;
+    background-color: transparent;
+    color: #dc2626;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-signout:hover {
+    background-color: #dc2626;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1e293b;
+    margin-right: 5px;
+}
+
 nav {
     background-color: var(--color-dark-primary);
     padding: 10px 20px;
