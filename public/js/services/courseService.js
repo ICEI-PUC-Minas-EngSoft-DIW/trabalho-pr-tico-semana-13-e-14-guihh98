@@ -1,5 +1,3 @@
-const API_URL = 'http://localhost:3000';
-
 class CourseService {
     async getRendaFixa() {
         try {
